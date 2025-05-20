@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333
+}
+button{
+    background-color: #f0f0f0
+    color white;
+    padding : 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+background-color: #123456;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background: #33644c;
+    padding: 1px;
+    }
+    .menu a {
+    color: rgb(0, 26, 255);
+    text-decoration: none;
+    }
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: px;
+        }
+        .galeria img {
+        width: 25%;
+        border-radius: 100px;
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: px;
+            }
+            .galeria img {
+            width: 25%;
+            border-radius: 50px;
+            }
+            

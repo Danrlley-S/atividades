@@ -1,0 +1,42 @@
+body {
+background-color: #6c8587;
+font-family: Tahoma;
+color: #333;
+}
+button {
+background-color: #2d9923;
+color: rgb(255, 255, 255);
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+background-color: #be2f2a;
+}
+.progress-container {
+  width: 370px;
+  height: 15px;
+  position: relative;
+  background: #815555;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #529454;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+.progress-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 12px;
+}
